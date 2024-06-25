@@ -7,9 +7,11 @@ import {AgentePageComponent} from "./pages/agente-page/agente-page.component";
 import {ProductoPageComponent} from "./pages/producto-page/producto-page.component";
 import {SoportePageComponent} from "./pages/soporte-page/soporte-page.component";
 import {EmpleadosPageComponent} from "./pages/empleados-page/empleados-page.component";
+import {LoginComponent} from "./pages/login/login.component";
 
 const routes: Routes = [
-  {path: '', pathMatch: 'full', redirectTo: 'home'},
+  {path: '', pathMatch: 'full', redirectTo: 'login'},
+  {path: 'login', component: LoginComponent },
   {
     path: 'tickets',
     children: [

@@ -20,6 +20,7 @@ import { ProductoDialogComponent } from './pages/producto-dialog/producto-dialog
 import { SoportePageComponent } from './pages/soporte-page/soporte-page.component';
 import { SoporteDialogComponent } from './pages/soporte-dialog/soporte-dialog.component';
 import { EmpleadoDialogComponent } from './pages/empleado-dialog/empleado-dialog.component';
+import { LoginComponent } from './pages/login/login.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { EmpleadoDialogComponent } from './pages/empleado-dialog/empleado-dialog
     ProductoDialogComponent,
     SoportePageComponent,
     SoporteDialogComponent,
-    EmpleadoDialogComponent
+    EmpleadoDialogComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
