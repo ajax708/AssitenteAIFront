@@ -6,6 +6,7 @@ import {EmpresaPageComponent} from './pages/empresa-page/empresa-page.component'
 import {AgentePageComponent} from "./pages/agente-page/agente-page.component";
 import {ProductoPageComponent} from "./pages/producto-page/producto-page.component";
 import {SoportePageComponent} from "./pages/soporte-page/soporte-page.component";
+import {EmpleadosPageComponent} from "./pages/empleados-page/empleados-page.component";
 
 const routes: Routes = [
   {path: '', pathMatch: 'full', redirectTo: 'home'},
@@ -17,6 +18,7 @@ const routes: Routes = [
     ]
   },
   {path: 'empresas', component: EmpresaPageComponent},
+  {path: 'empleado', component: EmpleadosPageComponent},
   {path: 'agente', component: AgentePageComponent},
   {path: 'producto', component: ProductoPageComponent},
   {path: 'soporte', component: SoportePageComponent}
